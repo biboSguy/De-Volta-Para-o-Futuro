@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Back To The Future</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <p>Enzo Cassol De Déa</p>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#Inicio" onclick="scrollToId('titulo')">Inicio</a>
+                </li>
+                <li>
+                    <a href="#Fotos" onclick="scrollToId('sobremim')">Fotos</a>
+                </li>
+                <li>
+                    <a href="#projeto" onclick="scrollToId('projeto')">Informações</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="titulo" id="titulo">
+        <h1>De Volta Para o Futuro</h1>
+        <p>o filme conta a história de um adolescente que 
+            acidentalmente viaja no tempo para 1955 e precisa
+             fazer com que seus pais se apaixonem novamente 
+             para garantir sua própria existência no futuro.</p>
+        <img src="awd.webp" height="400" width="800">
+    </div>
+    <div class="sobremim" id="sobremim">
+        <div>
+            <h1>Seção de Fotos</h1>
+            <p>Algumas fotos de cenas encontradas no filme</p>
+            <img src="dois surpresos.webp" height="260" width="500">
+            <img src="futuro.webp" height="260" width="500">
+            <img src="delorean.jpg" height="260" width="500">
+            <img src="abudabih.jpg" height="260" width="500">
+        </div>
+    </div>
+
+    <div class="projetos" id="projeto">
+        <h1>Informações</h1>
+        <p>O diretor do De volta para o futuro é Robert Zemeckis</p>
+        <p>Marty McFly está sendo representada pelo Michael J. Fox</p>
+        <p>Emmett Brown pelo Christopher Lloyd</p>
+        <p>Biff Tannen pelo Thomas F. Wilson</p>
+        <p>O filme foi lançado em 25 de dezembro de 1985</p>
+        <div class="images">
+            <img src="mcfly.jfif" height="360" width="260">
+            <img src="emmet.jfif" height="360" width="260">
+            <img src="biff.jfif" height="360" width="260">
+        </div>
+        <p>Um jovem chamado Marty McFly acidentalmente ativa uma máquina do tempo construída por um cientista 
+            excêntrico chamado Dr. Emmett Brown. A máquina é um Delorean modificado,
+            e Marty acaba sendo transportado de volta aos anos 1950. Lá, ele se encontra com sua própria mãe, 
+            Lorraine Baines, antes mesmo de ela se casar com seu pai. O problema 
+            é que Lorraine se apaixona por Marty, o que coloca em risco a própria existência dele. Se ela continuar 
+            apaixonada por ele, isso alteraria todo o futuro, forçando Marty a desempenhar o papel de cupido entre seus 
+            próprios pais. O filme é uma deliciosa mistura de humor, aventura e viagem no tempo, e nos leva a refletir 
+            sobre as consequências de nossas ações no passado e no futuro. Uma verdadeira obra-prima que continua 
+            encantando gerações até hoje</p>
+<div>
+    <p>Enzo</p>
+    <p>2°C</p>
+</div>
+    </div>
+    <script>
+        function scrollToId(id) {
+            document.getElementById(id).scrollIntoView({ behavior: "smooth", block: "start", inline: "nearest" })
+        }
+
+    </script>
+</body>
+
+</html>
